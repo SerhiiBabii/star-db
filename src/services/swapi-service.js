@@ -44,7 +44,6 @@ export default class SwapiService {
   }
 
   _transformPlanet = planet => {
-    // console.log(planet);
     return {
       id: this._extractId(planet),
       name: planet.name,
@@ -78,11 +77,3 @@ export default class SwapiService {
     };
   };
 }
-
-// const swapi = new SwapiService();
-
-// swapi.getAllStarships().then(people => {
-//   people.forEach(element => {
-//     console.log(element.name);
-//   });
-// });
