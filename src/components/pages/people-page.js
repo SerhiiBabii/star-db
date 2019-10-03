@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Row from "../row";
 import { PersonList, PersonDetails } from "../sw-components";
 
-export default class PeaoplePage extends Component {
+export default class PeoplePage extends Component {
   state = {
     selectedItem: null
   };
